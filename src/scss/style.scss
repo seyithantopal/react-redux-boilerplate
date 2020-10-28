@@ -1,14 +1,16 @@
-// Fonts
+// Abstract
+@import 'abstract/variables';
+@import 'abstract/mixins';
+@import 'abstract/functions';
+
+// Base
 @import 'base/fonts';
 
-// Variables
-@import 'abstract/variables';
+// Layout
 
-// Mixins
-@import 'abstract/mixins';
+// Components
 
-// Functions
-@import 'abstract/functions';
+// Pages
 
 html {
 	max-width: 800px;
